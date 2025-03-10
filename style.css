@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.box_container{
+    margin-inline: auto;
+    max-width: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(159, 159, 159, 0.633);
+
+}
+.box_container img{
+    width: 100%;
+    border-radius: 12px;
+}
+.status{
+    color: red;
+}
+.btn{
+    background-color: lightskyblue;
+    border: none;
+    padding: 12px;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
